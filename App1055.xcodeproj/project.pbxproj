@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783F21AB2D439AF600FAF642 /* Syut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F21AA2D439AF600FAF642 /* Syut.swift */; };
+		783F21AD2D439B0300FAF642 /* Wubi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F21AC2D439B0300FAF642 /* Wubi.swift */; };
+		783F21AF2D439B0F00FAF642 /* Dcael.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F21AE2D439B0F00FAF642 /* Dcael.swift */; };
 		78B1C8112CEF47F500360F92 /* App1055App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C8102CEF47F500360F92 /* App1055App.swift */; };
 		78B1C8132CEF47F500360F92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B1C8122CEF47F500360F92 /* ContentView.swift */; };
 		78B1C8152CEF480300360F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78B1C8142CEF480300360F92 /* Assets.xcassets */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		783F21AA2D439AF600FAF642 /* Syut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syut.swift; sourceTree = "<group>"; };
+		783F21AC2D439B0300FAF642 /* Wubi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wubi.swift; sourceTree = "<group>"; };
+		783F21AE2D439B0F00FAF642 /* Dcael.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dcael.swift; sourceTree = "<group>"; };
 		78B1C80D2CEF47F500360F92 /* App1055.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App1055.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78B1C8102CEF47F500360F92 /* App1055App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App1055App.swift; sourceTree = "<group>"; };
 		78B1C8122CEF47F500360F92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 				78B1C83B2CEF48AB00360F92 /* CoreDataStack.swift */,
 				78B1C83D2CEF48B000360F92 /* Array.swift */,
 				78B1C83F2CEF48B600360F92 /* DateConvert.swift */,
+				783F21AA2D439AF600FAF642 /* Syut.swift */,
+				783F21AC2D439B0300FAF642 /* Wubi.swift */,
+				783F21AE2D439B0F00FAF642 /* Dcael.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -372,11 +381,14 @@
 				78B1C8502CEF490600360F92 /* CoursesViewModel.swift in Sources */,
 				78B1C85B2CEF53F700360F92 /* AddSpend.swift in Sources */,
 				78B1C83C2CEF48AB00360F92 /* CoreDataStack.swift in Sources */,
+				783F21AD2D439B0300FAF642 /* Wubi.swift in Sources */,
+				783F21AB2D439AF600FAF642 /* Syut.swift in Sources */,
 				78B1C8112CEF47F500360F92 /* App1055App.swift in Sources */,
 				78B1C85E2CEF598B00360F92 /* BookDetail.swift in Sources */,
 				78B1C8382CEF489D00360F92 /* Not.swift in Sources */,
 				78B1C83E2CEF48B000360F92 /* Array.swift in Sources */,
 				78B1C8322CEF488E00360F92 /* R2.swift in Sources */,
+				783F21AF2D439B0F00FAF642 /* Dcael.swift in Sources */,
 				78B1C83A2CEF48A200360F92 /* TabBar.swift in Sources */,
 				78B1C8612CEF5E6800360F92 /* CourseDetil.swift in Sources */,
 				78B1C8482CEF48E900360F92 /* SpendingViewModel.swift in Sources */,
@@ -528,7 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1055;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -567,7 +579,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App1055;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
